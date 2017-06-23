@@ -21,8 +21,10 @@ fastNoise.value2D(1, 1);
 
 ### FNModule.FastNoise
 
+#### Constructor
 ##### new FastNoise(seed)
 
+#### Properties
 ##### FastNoise.seed
 ##### FastNoise.frequency
 ##### FastNoise.interp
@@ -36,6 +38,7 @@ fastNoise.value2D(1, 1);
 ##### FastNoise.cellularJitter
 ##### FastNoise.gradientPerturbAmp
 
+#### Methods
 ##### FastNoise.value2D(x, y)
 ##### FastNoise.valueFractal2D(x, y)
 ##### FastNoise.perlin2D(x, y)
